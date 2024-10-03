@@ -1,0 +1,12 @@
+Hello Hello Hello
+What do we have here
+do we have a working file
+or do we have only a nice Hello
+
+fn depackage(info_vector: Vec<int>) {
+    property_one = info_vector[0] + 1 ;
+    property_two = info_vector[1] + 2;
+    property_three = info_vector[2] + 3;
+    property_four = info_vector[3] + 4;
+    property_five = info_vector[4] + 5;
+}
