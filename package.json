@@ -1,8 +1,13 @@
 {
-  "name": "old-hoglie-dynamic-cursor",
-  "displayName": "DynamicCursorSelection",
+  "name": "dynamic-cursor",
+  "displayName": "Dynamic Cursor",
   "description": "Drop the head or tail cursor when you have mumultiple cursors",
   "version": "0.0.1",
+  "publisher": "owenhoglund",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Owen-Hoglund/VSC-Dynamic-Cursor"
+ },
   "engines": {
     "vscode": "^1.93.0"
   },

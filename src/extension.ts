@@ -6,10 +6,10 @@ import * as vscode from 'vscode';
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log('Congratulations, your extension "old-hoglie-dynamic-cursor" is now active!');
+	// console.log('Congratulations, your extension "old-hoglie-dynamic-cursor" is now active!');
 	
 	const command1 = vscode.commands.registerCommand('old-hoglie-dynamic-cursor.dropTail', () => {
-		vscode.window.showInformationMessage('Attempting to drop tail of cursors!');
+		// vscode.window.showInformationMessage('Attempting to drop tail of cursors!');
 		const editor = vscode.window.activeTextEditor;
 		if (editor && editor.selections.length > 1) {
 			let selections = [...editor.selections];
@@ -17,11 +17,11 @@ export function activate(context: vscode.ExtensionContext) {
 			selections.splice(0, 1);
 			editor.selections = selections;
 		} else {
-			vscode.window.showInformationMessage('Failed to find multiple cursors');
+			// vscode.window.showInformationMessage('Failed to find multiple cursors');
 		}
 	});
 	const command2 = vscode.commands.registerCommand('old-hoglie-dynamic-cursor.dropHead', () => {
-		vscode.window.showInformationMessage('Attempting to drop head of cursors!');
+		// vscode.window.showInformationMessage('Attempting to drop head of cursors!');
 		const editor = vscode.window.activeTextEditor;
 		if (editor && editor.selections.length > 1) {
 			let selections = [...editor.selections];
@@ -29,7 +29,7 @@ export function activate(context: vscode.ExtensionContext) {
 			selections.pop();
 			editor.selections = selections;
 		} else {
-			vscode.window.showInformationMessage('Failed to find multiple cursors');
+			// vscode.window.showInformationMessage('Failed to find multiple cursors');
 		}
 	});
 
