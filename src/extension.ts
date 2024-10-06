@@ -6,7 +6,7 @@ import * as vscode from 'vscode';
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log('Congratulations, your extension "old-hoglie-dynamic-cursor" is now active!');
+	
 	const command1 = vscode.commands.registerCommand('old-hoglie-dynamic-cursor.dropTail', () => {
 		dropCursor('tail');
 	});
