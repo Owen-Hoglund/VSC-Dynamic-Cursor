@@ -1,7 +1,7 @@
-Hello Hello Hello
+This This This
 What do we have here
 do we have a working file
-or do we have only a nice Hello
+or do we have only a nice This
 
 fn depackage(info_vector: Vec<int>) {
     property_one = info_vector[0] + 1 ;
